@@ -1,0 +1,178 @@
+/* HeroesComponent's private CSS styles */
+.heroes {
+    margin: 0 0 2em 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #hello  :hover {
+    color: #607D8B;
+    background-color: #DDD;
+    left: .1em;
+  }
+
+  .table{
+    max-width:100%;
+  }
+  
+  .heroes a {
+    color: #888;
+    text-decoration: none;
+    position: relative;
+    width: 250px;
+  }
+  
+  .heroes a:hover {
+    color:#607D8B;
+  }
+  
+  .heroes .badge {
+    font-size: small;
+    color: dimgray;
+    background-color :  #FFFFFF;
+    padding: 0.8em 0.7em 0 0.7em;
+    line-height: 1em;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .3em;
+  }
+
+  .heroes .shorturl{
+    
+    background-color :  #FFFFFF;
+    color: blue;
+    text-decoration-line: underline;
+    padding: 0.8em 0.7em 0 0.7em;
+    line-height: 1em;
+    top: 0px;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: left;
+  }
+
+  .heroes .fullurl { 
+    padding: 0.8em 0.7em 0 0.7em;
+    left: -1px;
+    text-align: left;
+    max-width: 50%;
+    line-break: strict;
+    word-break: break-all;
+    height: 1.8em;
+    background-color :  #FFFFFF;
+    color: blue;
+    text-decoration-line: underline;
+
+  }
+ 
+  .heroes .hits{
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color :  #FFFFFF;
+    line-height: 1em;
+    height: 1.8em;
+    color: dimgray;
+  }
+  .heroes .date{
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color :  #FFFFFF;
+    line-height: 1em;
+    height: 1.8em;
+    color: dimgray;
+  }
+
+  .heroes .badgeheading{
+    background-color :  rgb(241, 236, 241);
+    color: rgba(0, 0, 0, 0.637);
+    padding: 0.8em 0.7em 0 0.7em;
+    line-height: 1em;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .3em;
+  }
+
+  .heroes .dateheading{
+    background-color :  rgb(241, 236, 241);
+    color: rgba(0, 0, 0, 0.637);
+    padding: 0.8em 0.7em 0 0.7em;
+    white-space: nowrap;
+    line-height: 1em;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: right;
+    margin-right: .3em;
+  }
+
+  .heroes .fullheading{
+    background-color :  rgb(241, 236, 241);
+    color: rgba(0, 0, 0, 0.637);
+    padding: 0.8em 0.7em 0 0.7em;
+    left: -1px;
+    text-align: left;
+    max-width: 50%;
+    line-break: strict;
+    word-break: break-all;
+    height: 1.8em;
+  }
+
+  .heroes .shortheading{
+    background-color :  rgb(241, 236, 241);
+    color: rgba(0, 0, 0, 0.637);
+    padding: 0.8em 0.7em 0 0.7em;
+    line-height: 1em;
+    top: 0px;
+    height: 1.8em;
+    min-width: 16px;
+    text-align: left;
+  }
+
+  .heroes .hitsheading{
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color :  rgb(241, 236, 241);
+    color: rgba(0, 0, 0, 0.637);
+    line-height: 1em;
+    height: 1.8em;
+  }
+  
+ button {
+    background-color: #eee;
+    border-style: ridge;
+    border-color:  #FFFFFF;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: pointer;
+    cursor: hand;
+    font-family: Arial;
+    font-weight: bolder;
+    text-decoration-color:  #252527;
+  }
+  
+  .hero button:hover {
+    background-color: #cfd8dc;
+  }
+  
+  .hero button.delete {
+    position: relative;
+    left: 194px;
+    top: -32px;
+    background-color: gray !important;
+    color: white;
+  }
+  input {
+    width:40%;
+    padding: 10px;
+  }
+
+  #inputbox{
+      background-color: #252527;
+      padding:2.5em 2.5em 2.5em 2.5em;
+      max-width:100%;
+      position:sticky;
+      margin-left:0px;
+  }
+  #inputbox #insideinput{
+    padding:0 0 0.5em 0;
+    width:100%;
+    font-size: 30px;
+    color: #cfd8dc;
+}

@@ -1,0 +1,10 @@
+<div id="inputbox">
+  <h3>Analytical Data for <span id="links">{{title}}</span></h3>
+  <h4>Date Created {{datecreated}}</h4>
+  <h4>Original Url <span id="links">{{fullname}}</span></h4>
+</div>
+<div id="countbox"> <span>Total Clicks</span><span id="value"> {{totalclick|number:0  }}</span></div>
+<div id="chartContainer" style="height: 370px; max-width: 100%;margin-bottom: 3px; "></div>
+<div id="chartContainerB" style="height:370px;width: 50%; float:left"></div>
+<div id="chartContainerC" style="height:370px;width: 50%; float:right"></div>
+<div><button (click)="goBack()">go back</button></div>

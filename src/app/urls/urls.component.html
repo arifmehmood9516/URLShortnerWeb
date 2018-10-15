@@ -1,0 +1,32 @@
+<div id="inputbox">
+  <div id="insideinput">Simplify your links</div>
+    <label>
+      <input placeholder="Your Original URL Here" #fullUrl />
+    </label>
+    <!-- (click) passes input value to add() and then clears the input -->
+    <button (click)="addUrl(fullUrl.value)">
+      Shorten URL
+    </button>
+  </div>
+<h2>URLs in Store</h2>
+<div style="overflow-x:hidden;background-color: rgb(241, 236, 241)">
+<table class="heroes table">
+  <tr class="heading">
+      <th class="badgeheading" >ID</th>
+      <th class="fullheading">Original Url</th>
+      <th class="dateheading">Date Created</th>
+      <th class="shortheading">Short Url</th>
+      <th class="hitsheading">All Clicks</th>
+  </tr>
+  <tbody id="hello">
+  <tr *ngFor="let url of urls" routerLink="/urldetails/{{url.id}}">
+    <td class="badge">{{url.id}}</td>
+    <td class="fullurl"> <span>{{url.fullname}}</span></td>
+    <th class="date">{{url.date}}</th>
+    <td class="shorturl"> {{url.shortname}}</td>
+    <td class="hits"> {{url.urlhits}}</td>
+    <td><button class="delete" title="delete url" (click)="delete(url)" >x</button></td>
+  </tr>
+</tbody>
+</table>
+</div>

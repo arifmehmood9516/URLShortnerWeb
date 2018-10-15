@@ -1,0 +1,54 @@
+#inputbox{
+    background-color: #252527;
+    padding:2.5em 2.5em 2.5em 2.5em;
+    max-width:100%;
+    
+  line-break: strict;
+  word-break: break-all;
+    position:sticky;
+    margin-left:0px;
+}
+#inputbox #insideinput{
+  padding:0 0 0.5em 0;
+  width:100%;
+  font-size: 30px;
+  color: #cfd8dc;
+}
+
+h3{
+    color: antiquewhite;
+    font-size: 1.5em;
+}
+h4{
+    color: antiquewhite;
+    font-size: 1em;
+}
+
+#links{
+    color:rgba(93, 93, 224, 0.829);
+    text-decoration-line: underline;
+}
+
+#countbox{
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 50%;
+    padding:0.5em 1.5em 0.5em 1.5em;
+    border-style: solid;
+    border-color: gray;
+    margin:1%;
+    background-color: white;
+}
+
+#countbox #value{
+    text-align: center;
+    font-size: 2em;
+    color:black;
+    font-weight: bold;
+}
+#countbox #labll{
+    text-align: left;
+    font-size: 1em;
+    color:black;
+}
